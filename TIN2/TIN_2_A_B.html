@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_tin2.css">
+    <title>TIN_2_A_B</title>
+</head>
+
+<body>
+    <div class="form-div">
+        <form>
+            <div class="form-elem req">
+                <label for="username">Username: </label>
+                <input type="text" name="username" id="username" required>
+            </div>
+            <div class="form-elem req">
+                <label for="password">Password: </label>
+                <input type="password" name="password" id="password" required>
+                <div class="form-elem">
+                    <select name="gender" id="gender">
+                        <option value="">Choose your gender</option>
+                        <option value="female">Female</option>
+                        <option value="Male">Male</option>
+                        <option value="NotMatter">Does it matter?</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-elem">
+                <div class="radio-elem">
+                    <input type="radio" id="happy" value="happy" name="mood">
+                    <label for="happy">I am happy &#128516</label>
+                </div>
+                <div class="radio-elem">
+                    <input type="radio" id="nothappy" value="nothappy" name="mood">
+                    <label for="nothappy">I am tired &#128554</label>
+                </div>
+            </div>
+            <div class="form-elem">
+                <textarea id="why" name="why" rows="2" cols="25">Why do you still want to log in..?</textarea>
+            </div>
+            <div class="form-elem">
+                <label for="proc">I agree to proceed personal data </label>
+                <input type="checkbox" name="proc" id="proc">
+            </div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+
+</html>

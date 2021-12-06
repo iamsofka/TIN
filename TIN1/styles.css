@@ -1,0 +1,33 @@
+h1 {
+  font-style: italic;
+  font-size: 20px;
+}
+
+p {
+  font-style: normal;
+  font-size: 15px;
+}
+
+em {
+  font-size: 15px;
+}
+
+table {
+  border: 2px solid black;
+}
+
+td {
+  border: 2px solid black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: square;
+}
+
+body {
+  background-color: orange;
+}

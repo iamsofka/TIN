@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset="UTF-8">
+    	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    	<title>6D(Table)</title>
+    	<script src = "d.js"></script>
+		<link rel="stylesheet" type="text/css" href="d.css">
+	</head>
+	<body>
+
+		<div id="header" class="section">
+			<img alt="" class="img-circle" src="pic.png">
+			<p>Sofiia Perelyhina</p>
+		</div>
+		<div class="section">
+			<h1><span>About Me</span></h1>
+			<p>
+				Hi! I'm <strong>Sofa</strong>. I like penguins. People may think that a person my age has to love partying, drinking or money... I prefer returning from the office and hug my <strong>fluffy penguin</strong> (he's a toy unfortunately).
+			</p>
+			<p class="quote">"Penguins never gonna give you up."</p>
+		</div>
+
+	   <div class="section">
+			<h1><span>Custom Table</span></h1>
+			<table id="table" border="1px">
+		        <tr>
+		            <td>R1C1</td>
+		            <td>R1C2</td>
+		            <td>R1C3</td>
+		        </tr>
+		        <tr>
+		            <td>R2C1</td>
+		            <td>R2C2</td>
+		            <td>R2C3</td>
+		        </tr>
+		        <tr>
+		            <td>R3C1</td>
+		            <td>R3C2</td>
+		            <td>R3C3</td>
+		        </tr>
+		    </table>
+		    <form onsubmit="return false">
+		        <p  style="text-align: left">First Column:</p>
+		        <input type="text" name="first" id="first">
+		      	<p  style="text-align: left">Second Column:</p>
+		        <input type="text" name="second" id="second">
+		        <p  style="text-align: left">Third Column:</p>
+		        <input type="text" name="third" id="third">
+		        <button type="submit" class = "submit" onclick="add()">ADD</button>
+		    </form>
+		</div>
+		<div class="section" id="contacts">
+			<h1><span>Follow Penguins and their cuteness</span></h1>
+				<div>
+					<a href="https://www.facebook.com/groups/192131666057718/">
+						<img alt="Facebook" src="facebook.png"/>
+					</a>
+					<a href="https://twitter.com/penguin_watch?lang=en">
+						<img alt="Twitter" src="twitter.png" />
+					</a>
+					<a href="https://www.youtube.com/watch?v=3ht_87AZjoI&ab_channel=funnyplox">
+						<img alt="YouTube" src="youtube.png"/>
+					</a>
+			</div>
+		</div>
+		
+		<div class="copyright">
+			&copy; 2022 My Blog. All rights reserved.
+		</div>
+	</body>
+</html>

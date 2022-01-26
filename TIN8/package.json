@@ -1,0 +1,18 @@
+{
+  "name": "tin8",
+  "version": "1.0.0",
+  "description": "tin8 project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tin8"
+  ],
+  "author": "Sofiia Perelyhina",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}

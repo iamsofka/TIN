@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "name": "tin9",
+  "version": "1.0.0",
+  "description": "TIN9",
+  "main": "server.js",
+  "keywords": [
+    "TIN9",
+    "SERVER",
+    "CALCULATOR"
+  ],
+  "author": "Sofiia Perelyhina",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "parser": "^0.1.4"
+  }
+}
